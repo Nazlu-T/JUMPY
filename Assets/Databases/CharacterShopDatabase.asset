@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6512fa458c1c1e43a61519423f21c1d, type: 3}
+  m_Name: CharacterShopDatabase
+  m_EditorClassIdentifier: 
+  characters:
+  - image: {fileID: 21300000, guid: 6610e2bcc110bee4eb385eeea4080bd6, type: 3}
+    name: PinkDude
+    price: 1500
+    isPurchased: 1
+  - image: {fileID: 21300000, guid: 24f5214224df1934f99e3149d0c071a2, type: 3}
+    name: MaskDude
+    price: 2500
+    isPurchased: 0
+  - image: {fileID: 21300000, guid: c5cca56723984de4186ec01804107691, type: 3}
+    name: FrogDude
+    price: 3000
+    isPurchased: 0
+  - image: {fileID: 21300000, guid: 3ab7dd6014ba7c8469106f0315d7ced1, type: 3}
+    name: GlassDude
+    price: 4000
+    isPurchased: 0
