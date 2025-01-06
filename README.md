@@ -33,5 +33,17 @@ Problem-Solving and Testing: Leveraged test-time solutions to manage and reset g
 
 
 
-https://github.com/user-attachments/assets/7de3dfe8-7221-499d-b933-37224bf96d94
+
+
+https://github.com/user-attachments/assets/ef7295cd-830e-4118-a385-e413a54b652f
+
+
+
+https://github.com/user-attachments/assets/dd8f3752-1c9a-48bc-a444-444995104460
+
+
+
+https://github.com/user-attachments/assets/beb8eebe-f7b7-4eca-b9a4-6ec4c57afd97
+
+
 
