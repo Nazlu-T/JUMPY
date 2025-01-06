@@ -9,13 +9,13 @@ public class ResetManager : MonoBehaviour
 
     public void ResetPlayerData()
     {
-        // 1. Oyuncunun parasýný sýfýrla
+        // 1. Oyuncunun parasini sifirla
         GameDataManager.AddCoins(-GameDataManager.GetCoins());
 
-        // 2. Varsayýlan karakteri seç (örneðin, ilk karakter)
+        // 2. Varsayilan karakteri sec (ornegin, ilk karakter)
         if (characterDatabase != null && characterDatabase.CharactersCount > 0)
         {
-            Character defaultCharacter = characterDatabase.GetCharacter(0); // Ýlk karakter varsayýlan
+            Character defaultCharacter = characterDatabase.GetCharacter(0); // ï¿½lk karakter varsayï¿½lan
             GameDataManager.SetSelectedCharacter(defaultCharacter, 0);
         }
 
@@ -25,11 +25,11 @@ public class ResetManager : MonoBehaviour
             GameDataManager.SetSelectedBackground(defaultBackground, 0);
         }
 
-        // 3. Satýn alýnan tüm karakterleri temizle
+        // 3. Satï¿½n alï¿½nan tï¿½m karakterleri temizle
         GameDataManager.GetAllPurchasedCharacter().Clear();
         GameDataManager.GetAllPurchasedBackground().Clear();
 
-        // 4. Deðiþiklikleri kaydet
+        // 4. Deï¿½iï¿½iklikleri kaydet
         GameDataManager.SavePlayerData();
         GameDataManager.SaveCharactersShoprData();
 
