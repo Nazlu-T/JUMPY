@@ -1,5 +1,5 @@
 # JUMPY
-A Unity-powered 2D platformer inspired by the classic Doodle Jump, showcasing a blend of technical expertise, creativity, and a commitment to delivering fun and engaging gameplay experiences. This project highlights my ability to design scalable systems and craft interactive mechanics using Unity and C#.
+A Unity-powered 2D platformer inspired by the classic Doodle Jump. This project highlights my ability to design scalable systems and craft interactive mechanics using Unity and C#.
 
 Key Features:
 Dynamic Platform System:
